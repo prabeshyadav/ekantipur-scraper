@@ -8,3 +8,25 @@ wheels/
 
 # Virtual environments
 .venv
+venv/
+
+# Environment variables (keep secrets/local config out of git)
+.env
+.env.local
+.env.*.local
+
+# IDE / editor
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Logs and caches
+*.log
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
