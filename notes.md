@@ -77,15 +77,15 @@ I also checked multiple cards on each page to make sure the structure was repeat
 
 ## 2. What I Asked the AI
 
-I used ChatGPT while developing the scraper.
+I used cursor while developing the scraper.
 
 The main prompts I used were:
 
-> [PASTE YOUR ACTUAL FIRST PROMPT HERE]
+> Write a Python Playwright script to scrape the Entertainment section from a news website. Wait for the page to load completely, locate the Entertainment section, and extract the headline, article URL, image URL, and summary.
 
-> [PASTE YOUR ACTUAL SECOND PROMPT HERE]
+> How can I use Playwright selectors to scrape the "Cartoon of the Day" section? Show me how to locate the correct elements using CSS selectors and extract the title, image URL, and article link.
 
-> [PASTE ANY IMPORTANT FOLLOW-UP PROMPT HERE]
+> I have extracted the data using Playwright. How can I organize the results into a JSON file with separate keys for the Entertainment section and Cartoon of the Day, while handling missing elements safely?
 
 I used AI mainly to help with the Playwright implementation and handling the extracted data. I verified the selectors myself using Chrome DevTools rather than relying only on selectors suggested by AI.
 
